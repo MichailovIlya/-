@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main() 
+{
+   int x[5] = { 2, 4, 6, 9, 1} ;
+   float y;
+   for(int z = 0; z<=4; z++)
+   {
+       y=y+x[z];
+       
+   }
+   printf("%.2f", y/5);
+}
