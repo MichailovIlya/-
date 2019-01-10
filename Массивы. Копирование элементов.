@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main() 
+{
+   int x[5] = { 2, 4, 6, 9, 1} ;
+   int y[5];
+   for(int z = 4; z>=0; z--)
+   {
+       y[4-z]=x[z];
+    printf("%d\n", y[4-z]*y[4-z]*y[4-z]); 
+   }
+}
